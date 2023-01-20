@@ -26,6 +26,12 @@ class Mentor:
         else:
             return 'Ошибка'
 
+# Добавляем Lecturer и Reviewer как дочерний класс
+class Lecturer(Mentor):
+    pass
+class Reviewer(Mentor):
+    pass
+
 
 best_student = Student('Ruoy', 'Eman', 'your_gender')
 best_student.courses_in_progress += ['Python']
